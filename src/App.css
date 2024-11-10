@@ -1,0 +1,134 @@
+.menuBtn {
+  margin: 10px;
+  background-color: #48e !important;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center; /* Centra el botón dentro del div */
+  align-items: center; /* Alinea el contenido verticalmente */
+}
+
+.homeBtn {
+  display: flex !important;
+  align-items: center !important; /* Alinea el ícono y el texto verticalmente */
+  justify-content: center !important; /* Alinea el ícono y el texto horizontalmente */
+  text-align: center !important;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #4caf50 !important;
+  color: black;
+}
+
+.iconHome {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.promBtn {
+  background-color: rgba(197, 6, 6, 0.651) !important;
+}
+.calcProm {
+  background-color: #48e !important;
+}
+
+.elegirCriterios {
+  margin-bottom: 50px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: disc; /* Mantiene los puntos en la lista */
+}
+
+li {
+  margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out; /* Suaviza el efecto de cambio de tamaño */
+}
+
+li:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+}
+
+label {
+  display: inline-block; /* Asegura que los elementos se alineen correctamente */
+  margin-right: 10px;
+}
+
+select {
+  margin-left: 10px;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out; /* Suaviza el cambio de tamaño del select */
+}
+
+select:hover {
+  transform: scale(1.1); /* Aumenta el tamaño del select al pasar el ratón */
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pesosBtn {
+  background-color: #ffeb3b;
+  color: black;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.saveBtn {
+  background-color: rgba(0, 128, 0, 0.44);
+}
+.divBtn {
+  height: 100%;
+}
+.contentTable {
+  justify-items: center;
+}
+.volverBtn {
+  background-color: #ffff;
+  color: black;
+}
+
+ul {
+  /* Quita los puntos de la lista */
+  padding: 0; /* Elimina el padding predeterminado */
+  margin: 50px; /* Elimina el margen predeterminado */
+}
+
+/* Estilos para los li */
+li {
+  margin: 20px; /* Agrega espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces */
+.links {
+  /* Quita el subrayado de los enlaces */
+  color: #ffff; /* Color de los enlaces */
+  font-size: 16px; /* Tamaño de fuente */
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.links:hover {
+  transform: scale(1.1); /* Cambia el color al pasar el mouse */
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
